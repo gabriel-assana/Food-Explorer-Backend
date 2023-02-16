@@ -1,7 +1,7 @@
 {
   "name": "food-explorer-backend",
   "version": "1.0.0",
-  "description": "API desenvolvida por André Viapiana para o Food Explorer",
+  "description": "API",
   "main": "index.js",
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.js --env production",
@@ -9,7 +9,7 @@
     "migrate": "knex migrate:latest"
   },
   "keywords": [],
-  "author": "André Viapiana",
+  "author": "Gabriel Assana",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
